@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    database: mysql
+    show-sql: true
+    generate-ddl: false
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://localhost:3306/cpr?characterEncoding=UTF-8&serverTimezone=UTC
+    username: cpr
+    password: cpr
+    platform: MySQL5InnoDBDialect
